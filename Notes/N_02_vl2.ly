@@ -62,3 +62,12 @@ ConfiteborViolinoII = {
 		a4 r r2\fermata \bar "||" %61 finis
 	}
 }
+
+UtDetIllisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \lydian \time 3/4 \tempoUtDetIllis
+			\set Score.currentBarNumber = #62
+		
+	}
+}

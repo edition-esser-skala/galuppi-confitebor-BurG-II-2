@@ -96,3 +96,26 @@ ConfiteborSopranoLyrics = \lyricmode {
 	men -- ti su --
 	i. %55 finis
 }
+
+UtDetIllisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \lydian \time 3/4 \autoBeamOff \tempoUtDetIllis
+			\set Score.currentBarNumber = #62
+	}
+}
+
+UtDetIllisSopranoLyrics = \lyricmode {
+	
+}
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }

@@ -101,3 +101,26 @@ ConfiteborAltoLyrics = \lyricmode {
 	_ _ pu -- lo %60
 	su -- o. %61 finis
 }
+
+UtDetIllisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \lydian \time 3/4 \autoBeamOff \tempoUtDetIllis
+			\set Score.currentBarNumber = #62
+	}
+}
+
+UtDetIllisAltoLyrics = \lyricmode {
+	
+}
+
+% AltoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		
+% 	}
+% }
+% 
+% AltoLyrics = \lyricmode {
+% 	
+% }

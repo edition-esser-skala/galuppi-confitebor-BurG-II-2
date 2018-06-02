@@ -45,3 +45,13 @@ ConfiteborViola= {
 		R1\fermataMarkup \bar "||" %61 finis
 	}
 }
+
+UtDetIllisViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
+		\key f \lydian \time 3/4 \tempoUtDetIllis
+			\set Score.currentBarNumber = #62
+		
+	}
+}

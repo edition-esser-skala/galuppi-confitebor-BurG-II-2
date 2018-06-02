@@ -135,3 +135,27 @@ ConfiteborBassFigures = \figuremode {
 	<7 [_-]> <[7-]> <6>2 %60
 	<[6] [4]>4 <[5] [_+]>2. %61 finis
 }
+
+UtDetIllisOrgano = {
+	\relative c {
+		\clef bass
+		\key f \lydian \time 3/4 \tempoUtDetIllis
+			\set Score.currentBarNumber = #62
+		\mvTr f2\fE^\soloE e4
+	}
+}
+
+UtDetIllisBassFigures = \figuremode {
+	
+}
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }

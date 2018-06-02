@@ -14,9 +14,62 @@
 #(set-global-staff-size 15.87)
 
 \book {
+% 	\bookpart {
+% 		\header {
+% 			movement = "1 CONFITEBOR"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\ConfiteborViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\ConfiteborViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\ConfiteborViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \SopranoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Soprano" { \dynamicUp \ConfiteborSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \ConfiteborSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \AltoIncipit
+% 						\override Staff.InstrumentName.self-alignment-Y = ##f
+% 						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+% 						\new Voice = "Alto" { \dynamicUp \ConfiteborAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\ConfiteborOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\ConfiteborBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "1 CONFITEBOR"
+			movement = "2 UT DET ILLIS"
 		}
 		\score {
 			<<
@@ -24,43 +77,39 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\ConfiteborViolinoI
+							\UtDetIllisViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\ConfiteborViolinoII
+							\UtDetIllisViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\ConfiteborViola
+						\UtDetIllisViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Soprano" { \dynamicUp \ConfiteborSopranoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \UtDetIllisSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \ConfiteborSopranoLyrics
+					\new Lyrics \lyricsto Soprano \UtDetIllisSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
-						\new Voice = "Alto" { \dynamicUp \ConfiteborAltoNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \UtDetIllisAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
+					\new Lyrics \lyricsto Alto \UtDetIllisAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\ConfiteborOrgano
+						\UtDetIllisOrgano
 					}
 				>>
 				\new FiguredBass {
-					\ConfiteborBassFigures
+					\UtDetIllisBassFigures
 				}
 			>>
 			\layout { }
