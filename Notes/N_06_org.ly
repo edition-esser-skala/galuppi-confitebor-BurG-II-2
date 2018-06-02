@@ -31,9 +31,9 @@ ConfiteborOrgano = {
 		c h a4. c8
 		h4. d8 c4. e8
 		dis2 e8 fis g a
-		h4 h, e8 e' dis h
+		h4 h, e8\fE e' dis h
 		e, e dis h e4 r %25
-		g8 b a g f e d4
+		g8\pE b a g f e d4
 		f8 f g f e d c4
 		r c f8 f e d
 		gis4 a dis, dis
