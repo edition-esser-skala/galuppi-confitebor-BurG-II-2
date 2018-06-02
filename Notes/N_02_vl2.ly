@@ -44,7 +44,7 @@ ConfiteborViolinoII = {
 		r4 r8 g c a fis g16. a32
 		h8 g e fis16. g32 a8 fis d e16. fis32
 		g4 r r2 %45
-		\mvDll <g' h, d, g,>4\fE q g16 d h d g d h d
+		<g' h, d, g,>4\fE q g16 d h d g d h d
 		g8-! g32( a h16) a8-! a32( h c16) h16 g d g h g d g
 		h8.(\trill a32 h) c8.( h32 c) d8.( c32 h) a8 g
 		fis32([ e d16)] d8 r d e c a h16. c32
