@@ -141,7 +141,98 @@ UtDetIllisOrgano = {
 		\clef bass
 		\key f \lydian \time 3/4 \tempoUtDetIllis
 			\set Score.currentBarNumber = #62
-		\mvTr f2\fE^\soloE e4
+		\mvTr f2\fE-\soloE e4
+		d2 c4
+		b2 a4
+		g g' e %65
+		f c a
+		f r f'
+		c r c
+		d r h!
+		c r c %70
+		f f fis
+		g g f
+		e8 f g4 g,
+		c c'8 b a g
+		f2 e4 %75
+		d2 c4
+		b2 a4
+		g c c
+		f r e
+		d r c %80
+		b r a
+		b c c
+		f r e
+		d r c
+		b r a %85
+		g c c
+		f, f' c
+		f, r f'
+		e r e
+		d r d %90
+		c r c
+		f f f
+		fis fis fis
+		g g f
+		e d c %95
+		d h! c
+		f g a
+		f g g,
+		c c' h!
+		a r g %100
+		f r e
+		d h! g
+		c r r
+		R2.*6 %109
+		d4 r d %110
+		a r a
+		b r b
+		f' r r
+		f r r
+		b, r r %115
+		b? r r
+		f'2 g4
+		es f f,
+		b b' f
+		b, r b %120
+		f' r f
+		g c,2
+		f4 r f
+		b, f' f,
+		c' e g %125
+		c c, e
+		f d b
+		c2 c4
+		f r e
+		d r c %130
+		b r a
+		b c c,
+		f r f'
+		e d c
+		d4. c8 b4 %135
+		a g f
+		b b' a
+		g c c,
+		f r f
+		e r e %140
+		d r d
+		c r f
+		g4. g8 f e
+		d4 h! r
+		e c r %145
+		f d f
+		g a f
+		g2 g,4
+		a2 c4
+		d h'! c %150
+		f, g g,
+		c c' h!
+		a2 g4
+		f2 e4
+		d h! g %155
+		c2 c8 d
+		e f g4 g,
+		c r r\fermata \bar "||" %158 finis
 	}
 }
 
