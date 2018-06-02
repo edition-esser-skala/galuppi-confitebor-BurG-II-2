@@ -6,8 +6,8 @@
 
 ConfiteborViola= {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key c \major \time 4/4 \tempoConfitebor
 		c4\fE c c r
 		r8 g' g d e4 r
