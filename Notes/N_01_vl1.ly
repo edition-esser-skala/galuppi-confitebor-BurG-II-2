@@ -180,7 +180,7 @@ SanctumViolinoI = {
 		gis8 e e e e e e e
 		e e e e c d e f %180
 		c c h h\fermata a a' d,,16.\fE f32 e32.[ d64 c32. h64]
-		a8 a'' d,,16. f32 e32.[ d64 c32. h64] a4 r\fermata \bar "||"
+		a8 a'' d,,16. f32 e32.[ d64 c32. h64] a4 r\fermata \bar "||" %182 finis
 	}
 }
 
