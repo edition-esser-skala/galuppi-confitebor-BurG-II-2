@@ -336,30 +336,30 @@ SanctumOrgano = {
 		\clef bass
 		\key a \minor \time 4/4 \tempoSanctum
 			\set Score.currentBarNumber = #159
-			a'8\pE-\tweak TextScript.X-offset #2 -\soloE^\markup { \remark "staccato" } r a, r h r e r
-			a r dis, r e r r16 e(\f f e) %160
-			f8 fis r16 fis( g fis) g8 gis r16 gis( a gis)
-			a8 a a a h h gis gis
-			a r g r fis r f r
-			e r gis\p r a d, e e,
-			a r d16.\f f32 e32.[ d64 c32. h64] a8 r d16. f32 e32.[ d64 c32. h64] %165
-			a4 r \mvTr a'8\pE-\senzaOrg a g g
-			f f c c h h gis gis
-			a a f' f d d e e
-			a, a d g, c4 r
-			r8 c c c f c e c %170
-			f f fis fis r g e c
-			r f d h r e c a
-			r c c c h h' c f,
-			g4 g, \mvTr c4\fE-\org g'8 g
-			f r f f e4 r %175
-			f8\pE f d d e e r16 e( f e)
-			f8 fis r16 fis g fis g8 gis r16 gis a gis
-			a8 a g g fis fis f f
-			e e d d c c a a
-			gis gis e e a h c d %180
-			e\fermata e e, e a r d16.\fE f32 e32.[ d64 c32. h64]
-			a8 r d16. f32 e32.[ d64 c32. h64] a4 r\fermata \bar "||" %182 finis
+		a'8\pE-\tweak TextScript.X-offset #2 -\soloE^\markup { \remark "staccato" } r a, r h r e r
+		a r dis, r e r r16 e(\f f e) %160
+		f8 fis r16 fis( g fis) g8 gis r16 gis( a gis)
+		a8 a a a h h gis gis
+		a r g r fis r f r
+		e r gis\p r a d, e e,
+		a r d16.\f f32 e32.[ d64 c32. h64] a8 r d16. f32 e32.[ d64 c32. h64] %165
+		a4 r \mvTr a'8\pE-\senzaOrg a g g
+		f f c c h h gis gis
+		a a f' f d d e e
+		a, a d g, c4 r
+		r8 c c c f c e c %170
+		f f fis fis r g e c
+		r f d h r e c a
+		r c c c h h' c f,
+		g4 g, \mvTr c4\fE-\org g'8 g
+		f r f f e4 r %175
+		f8\pE f d d e e r16 e( f e)
+		f8 fis r16 \slurDashed fis( g fis) g8 gis r16 gis( a gis) \slurSolid
+		a8 a g g fis fis f f
+		e e d d c c a a
+		gis gis e e a h c d %180
+		e e e, e\fermata a r d16.\fE f32 e32.[ d64 c32. h64]
+		a8 r d16. f32 e32.[ d64 c32. h64] a4 r\fermata \bar "||" %182 finis
 	}
 }
 

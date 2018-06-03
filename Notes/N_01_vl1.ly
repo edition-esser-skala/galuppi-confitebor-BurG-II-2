@@ -157,6 +157,30 @@ SanctumViolinoI = {
 		\clef treble
 		\key a \minor \time 4/4 \tempoSanctum
 			\set Score.currentBarNumber = #159
+		e'16.(\p f32 e16. f32) e16-! e( f e) \once \slurDashed d16.( e32 d16. e32) d16-! d( e d)
+		\once \slurDashed c16.( d32 c16. d32) c16 a'8 c,16 c8\trill h r16 e,(\f f e) %160
+		f8 fis r16 fis( g fis) g8 gis r16 gis( a gis)
+		a( e' gis a) a( c f, e) d d( ais' h) h f( e d)
+		c32([-. c-. c-. c-.] c-. c-. c-. a'-.) cis,([-. cis-. cis-. cis-.] cis-. cis-. cis-. a'-.) d,([-. d-. d-. d-.] d-. d-. d-. a'-.) dis,([-. dis-. dis-. dis-.] dis-. dis-. dis-. a'-.)
+		gis[ fis e16] e,8 r16 f'\p e16. d32 c16. d32 e16. f32 \appoggiatura c8 h8. a16
+		a8-! a'-!\f d,,16. f32 e32.[ d64 c32. h64] a8 a'' d,,16. f32 e32.[ d64 c32. h64] %165
+		a8 a'' a,,4 c'8-!\p c-! e-! e-!
+		a a e e f d h d
+		d c c c h h h h
+		r16 e( f16. e32) f16.( d32 e16. d32) e16. a,32 g16. f32 e4
+		r2 r8 e' g e %170
+		a a a c, r d e g
+		r a, d f r g, c e
+		fis fis, fis fis g f'([ e d)]
+		e-! e-! d-! d-! c g'~\f g16([ a32 b)] \appoggiatura d,16 cis8
+		d f~ f16([ g32 a)] \appoggiatura c,16 h8 c16. a32 g16. f32 e4 %175
+		r2 r4 r16 e(\pE f e)
+		f8 fis r16 \once \slurDashed fis( g fis) g8 gis r16 gis( a h)
+		c32([-. c-. c-. c-.] c-. c-. c-. a'-.) cis,([-. cis-. cis-. cis-.] cis-. cis-. cis-. a'-.) d,([-. d-. d-. d-.] d-. d-. d-. a'-.) dis,([-. dis-. dis-. dis-.] dis-. dis-. dis-. a'-.)
+		gis8 e e e e e e e
+		e e e e c d e f %180
+		c c h h\fermata a a' d,,16.\fE f32 e32.[ d64 c32. h64]
+		a8 a'' d,,16. f32 e32.[ d64 c32. h64] a4 r\fermata \bar "||"
 	}
 }
 
