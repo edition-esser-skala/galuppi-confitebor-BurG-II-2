@@ -48,10 +48,48 @@ ConfiteborViola= {
 
 UtDetIllisViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key f \lydian \time 3/4 \tempoUtDetIllis
 			\set Score.currentBarNumber = #62
-		
+		a'2\fE g4
+		f2 e4
+		d2 c4
+		d g e %65
+		f a, c
+		a r c
+		c r e
+		a, r d
+		g, r g' %70
+		a a a
+		d, d d
+		e8 a g4 f
+		e e, r
+		R2.*4 %78
+		a'4\fE r g
+		f r e %80
+		d r c
+		d c b
+		a r r
+		R2.*15 %98
+		e'4\fE r d
+		c r h! %100
+		a a' g
+		f d h!
+		c2 r4
+		R2.*25 %128
+		a4\fE r g
+		f f' e %130
+		d r c
+		b g c
+		a r r
+		R2.*18 %151
+		e'4\fE e d
+		c c h!
+		a a' g
+		f d h! %155
+		c2 e8 h
+		c c' c4 h
+		c r r\fermata \bar "||" %158 finis
 	}
 }

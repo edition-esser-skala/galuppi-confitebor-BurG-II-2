@@ -119,7 +119,7 @@ UtDetIllisSopranoNotes = {
 		R2. %90
 		g4~ \tuplet 3/2 4 { g8[ a h!] c[ d e] }
 		a,4~ \tuplet 3/2 4 { a8[ c h!] a[ h c]
-		d[ f e] d[ e c] h![ c a] }
+		d[ fis? e] d[ e c] h![ c a] }
 		h!4. a8 g4
 		c4. d8 e4 %95
 		f,( f') e

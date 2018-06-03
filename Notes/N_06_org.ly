@@ -326,7 +326,7 @@ UtDetIllisBassFigures = \figuremode {
 	<5>2 <6>4
 	<5>2 <6>4
 	<5> <6>2 %155
-	r2.
+	r2 r8 <[6]>
 	<6>4 <[6] 4> <[5] 3>
 	r2. %158 finis
 }
