@@ -163,7 +163,7 @@ SanctumViolinoII = {
 		a( e' gis a) a( c f, e) d d( ais' h) h f( e d)
 		c32([-. c-. c-. c-.] c-. c-. c-. a'-.) cis,([-. cis-. cis-. cis-.] cis-. cis-. cis-. a'-.) d,([-. d-. d-. d-.] d-. d-. d-. a'-.) dis,([-. dis-. dis-. dis-.] dis-. dis-. dis-. a'-.)
 		gis[ fis e16] e,8 r16 d'\p c16. h32 a8 a a gis
-		a8-! a'-!\f d,,16. f32 e32.[ d64 c32. h64] a8 a'' d,,16. f32 e32.[ d64 c32. h64] %165
+		a8-! a'-! d,,16.\f f32 e32.[ d64 c32. h64] a8 a'' d,,16. f32 e32.[ d64 c32. h64] %165
 		a8 a'' a,,4 a'8\pE a h h
 		c c a a d h e, h'
 		e, e a a a a gis gis

@@ -120,6 +120,7 @@
 		\header {
 			movement = "3 SANCTUM ET TERRIBILE"
 		}
+		\paper { page-count = #6 }
 		\score {
 			<<
 				\new StaffGroup <<

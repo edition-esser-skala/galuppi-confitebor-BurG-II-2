@@ -96,10 +96,33 @@ UtDetIllisViola = {
 
 SanctumViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key a \minor \time 4/4 \tempoSanctum
 			\set Score.currentBarNumber = #159
-		
+		a8\pE r a r a r gis r
+		a r fis' r e r r16 e(\f f e) %160
+		f8 fis r16 fis( g fis) g8 gis r16 gis( a gis)
+		a8 c c a f d d e
+		e r e r a r a r
+		gis r h,\p r c d h e
+		c r d16.\f f32 e32.[ d64 c32. h64] a8 r d16. f32 e32.[ d64 c32. h64] %165
+		a4 r a'8\pE a g g
+		f f c c h h gis gis
+		a a f' f d d e e
+		a, a d g, c4 r
+		r8 c c c f c e c %170
+		f f fis fis r g e c
+		r f d h r e c a
+		r c c c h h' c f,
+		g4 g, c\fE b'8 b
+		a r d, d g,4 r %175
+		r2 r4 r16 e'(\pE f e)
+		f8 fis r16 \slurDashed fis( g fis) g8 gis r16 gis( a gis) \slurSolid
+		a8 e e e a a a dis,
+		e e d d c c a a
+		gis gis e e a h c d %180
+		e e e, e\fermata a r d16.\fE f32 e32.[ d64 c32. h64]
+		a8 r d16. f32 e32.[ d64 c32. h64] a4 r\fermata \bar "||" %182 finis
 	}
 }
