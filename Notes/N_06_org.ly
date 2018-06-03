@@ -154,7 +154,7 @@ UtDetIllisOrgano = {
 		g g f
 		e8 f g4 g,
 		c c'8 b a g
-		f2 e4 %75
+		f2\pE e4 %75
 		d2 c4
 		b2 a4
 		g c c
@@ -298,7 +298,7 @@ UtDetIllisBassFigures = \figuremode {
 	<6 4>4 <6>2 %125
 	<7->2.
 	r2 <6>4
-	<6 4>2 <5 3>4
+	<6 4> <5 3>2
 	r2 <6>4
 	<5>2. %130
 	r2 <6>4

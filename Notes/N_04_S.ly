@@ -102,11 +102,113 @@ UtDetIllisSopranoNotes = {
 		\clef treble
 		\key f \lydian \time 3/4 \autoBeamOff \tempoUtDetIllis
 			\set Score.currentBarNumber = #62
+		R2.*13 %74
+		\mvTr f4\pE^\soloE c'2 %75
+		f4 f, c'
+		d4. e8 f4~
+		f8 d \appoggiatura c4 b4. b8
+		a4 r r
+		R2.*3 %82
+		f4 c'2
+		f4 f, c'
+		d4. e8 f4~ %85
+		f8 d \appoggiatura c4 b4. b8
+		a4 r r
+		f f8 g a h!
+		c([ h)] c2
+		R2. %90
+		g4~ \tuplet 3/2 4 { g8[ a h!] c[ d e] }
+		a,4~ \tuplet 3/2 4 { a8[ c h!] a[ h c]
+		d[ f e] d[ e c] h![ c a] }
+		h!4. a8 g4
+		c4. d8 e4 %95
+		f,( f') e
+		d4. h!8 c4~
+		c8 a h!4. c8
+		c4 r r
+		R2.*4 %103
+		g4 g g8 a
+		b4. a8 b4 %105
+		b? a g
+		g f a
+		b2 a4~
+		a g2
+		f4 d' d %110
+		d8([ b)] c4 c
+		c8([ a)] b4 b
+		a4. g8[ a b]
+		c4 b a
+		b?4. a8[ b c] %115
+		d4 c b!
+		a es' d~
+		d8[ es] c4. b8
+		b?4 r r
+		d d8 c b d %120
+		c4 c2
+		b4 b8 a g b
+		a4. b?8 c4
+		b a2
+		a4 g2 %125
+		b2.
+		a2 b4
+		a( g2)
+		f4 r r
+		R2.*28 %157
+		R2.\fermataMarkup \bar "||" %158 finis
 	}
 }
 
 UtDetIllisSopranoLyrics = \lyricmode {
+	Ut det %75
+	il -- lis hae --
+	re -- di -- ta --
+	tem gen -- ti --
+	um.
 	
+	Ut det %83
+	il -- lis hae --
+	re -- di -- ta -- %85
+	tem gen -- ti --
+	um.
+	O -- pe -- ra man -- uum
+	e -- ius
+	%90
+	ve -- _
+	_ _
+	_ _ _
+	_ ri -- tas,
+	ve -- ri -- tas %95
+	et __ iu --
+	di -- ci -- um, __
+	iu -- di -- ci --
+	um.
+	
+	[Fi -- de -- li -- a %104
+	o -- mni -- a %105
+	man -- da -- ta
+	e -- ius, man --
+	da -- ta __
+	e --
+	ius, con -- fir -- %110
+	ma -- ta in
+	sae -- cu -- lum
+	sae -- _
+	_ _ _
+	_ _ %115
+	_ _ _
+	_ _ _
+	_ cu --
+	li,]
+	fa -- cta in ve -- ri -- %120
+	ta -- te,
+	fa -- cta in ve -- ri --
+	ta -- te et
+	ae -- qui --
+	ta -- te, %125
+	et
+	ae -- qui --
+	ta --
+	te. %129 finis
 }
 
 % SopranoNotes = {
