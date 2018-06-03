@@ -268,7 +268,7 @@ UtDetIllisBassFigures = \figuremode {
 	<6!> %90
 	r
 	<[6]>
-	<6>
+	<6 [5]>
 	r
 	<6> %95
 	r4 <[5]> r
@@ -316,8 +316,8 @@ UtDetIllisBassFigures = \figuremode {
 	<6 4>4 <5 3>2
 	r2.
 	<6> %145
-	r
-	<[7]>
+	r2 <[6]>4
+	<[7]>2.
 	<[6] 4>4 <[5] 3>2
 	<5> <6>4
 	r2. %150

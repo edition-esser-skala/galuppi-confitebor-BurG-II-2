@@ -68,6 +68,86 @@ UtDetIllisViolinoII = {
 		\clef treble
 		\key f \lydian \time 3/4 \tempoUtDetIllis
 			\set Score.currentBarNumber = #62
-		
+		f'4\fE a16 g a b c8. e,16
+		e4( f16) e f g a8. c,16
+		c4( d16) c d e f8. a,16
+		a4( b16) a b d c8 b %65
+		\appoggiatura b4 a4. g8 f4
+		c' f16 e f g a8 a
+		a( fis) \appoggiatura fis4 g4. g8
+		g( e) \appoggiatura e4 f4. f8
+		f8 d \appoggiatura d4 e4. e8 %70
+		d16 c d e f e f g a8 c,
+		\appoggiatura c8 h!4( a16) g a h c d e f
+		g8 c, c4 h!8.\trill c16
+		c4 c, r
+		f'4\p a16 g a b c8. e,16 %75
+		e4( f16) e f g a8. c,16
+		c4( d16) c d e f8. a,16
+		b4 r r
+		f\f a16 g a b c8. e,16
+		e4( f16) e f g a8. c,16 %80
+		c4( d16) c d e f8 a,
+		b g' c,4 e
+		f f' r
+		R2.*3 %86
+		r4 a16\pE g a b c8. e,16
+		e4( f16) e f g a8 a
+		a( fis) \appoggiatura fis4 g4. g8
+		g( e) \appoggiatura e4 f4. f8 %90
+		f8 d \appoggiatura d4 e4. e8
+		d4 a c
+		c c c
+		h! r16 g a h! c d e f
+		g4 r r %95
+		R2.*3
+		c,4\fE e16 d e f g8. h,!16
+		h4( c16) h c d e8. g,16 %100
+		g4( a16) g a h c8. e,16
+		f8 g16 a g8 f e d
+		e d c2
+		c4\pE r r
+		c e d %105
+		cis2.
+		d2 d4
+		g2 d4~
+		d e a,
+		d d'16 c d e f8 f %110
+		f d \appoggiatura d4 es4. es8
+		es? c \appoggiatura c4 d4. d8
+		<a' c, f,>4 r r
+		c, b a
+		b r r %115
+		d c b
+		a r r
+		R2.
+		b4\fE d16 c d es f8 a,
+		b4 r r %120
+		R2.*8 %128
+		f4\fE a16 g a b c8. e,16
+		e4( f16) e f g a8. c,16 %130
+		c4( d16) c d e f8 c
+		d b' c,4 e
+		f f' r
+		R2.*5 %138
+		r16 c\pE d e f e f g a8 f
+		g16 h, c d e d e f g8 e %140
+		f16 a, h! c d c d e f8 d
+		e16 g, a h c h c d c8 c
+		c4 h! r
+		d d, r
+		e' e, r %145
+		c' d d
+		d c c
+		c h!2
+		c4 r r
+		R2.*2 %151
+		c4\fE e16 d e f g8. h,!16
+		h4( c16) h c d e8. g,16
+		g4( a16) g a h c8. e,16
+		f8 g16 a g8 f e d %155
+		e16 c d e f g a h c d e f
+		g8 a e4 d\trill
+		c c, r\fermata \bar "||" %158 finis
 	}
 }
