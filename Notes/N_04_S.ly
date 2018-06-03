@@ -216,11 +216,44 @@ SanctumSopranoNotes = {
 		\clef treble
 		\key a \minor \time 4/4 \autoBeamOff \tempoSanctum
 			\set Score.currentBarNumber = #159
+		R1*7 %165
+		r4 \mvTr a'2(\pE^\soloE e'8.) c16
+		a16.([ gis32)] a8 r a16. a32 a8 gis16. a32 h8 d,
+		d c a'4.( gis16.[ f'32] e[ d16.)] c32([ h16.)]
+		c32([ h16.)] a8 r4 r r8 g
+		c g16. f32 e8 c' a16. g32 g4 e'8 %170
+		e d16. e32 f([ a,16.]) h32([ c16.)] h16. a32 g8 r e'
+		e d r d d c r c
+		fis,4 fis g8[ f' e d]
+		c8.[ d16] d8.\trill c16 c4 r
+		r2 r4 r8 e %175
+		e d16. e32 f8 a, gis16. a32 h8 r4
+		r8 d4 c8 h e4 d8
+		c4 cis d dis
+		e8[ gis,]~ gis16[ a32 h a16 gis] a8[ e']~ e16.[ c32 h16.\trill a32]
+		h8[ e]~ e16.[ d32 c16. h32] c16[ d32 e] d16[ e32 f] e16[ f \appoggiatura e32 d16 \appoggiatura c32 h16] %180
+		a8.[\fermata h16] h8.\trill a16 a4 r
+		R1\fermataMarkup \bar "||" %182 finis
 	}
 }
 
 SanctumSopranoLyrics = \lyricmode {
-	
+	San -- ctum, %166
+	san -- ctum et ter -- ri -- bi -- le no -- men
+	e -- ius, no -- men
+	e -- ius. In --
+	i -- ti -- um sa -- pi -- en -- ti -- ae, in -- %170
+	i -- ti -- um sa -- pi -- en -- ti -- ae, est
+	ti -- mor, est ti -- mor, est
+	ti -- mor Do --
+	_ _ mi -- ni.
+	In -- %175
+	i -- ti -- um sa -- pi -- en -- ti -- ae
+	ti -- mor Do -- _ _
+	_ _ _ _
+	_ _
+	_ _ _ _ %180
+	_ _ mi -- ni. %181 finis
 }
 
 % SopranoNotes = {
