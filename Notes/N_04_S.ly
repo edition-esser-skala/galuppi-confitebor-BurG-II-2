@@ -211,6 +211,18 @@ UtDetIllisSopranoLyrics = \lyricmode {
 	te. %129 finis
 }
 
+SanctumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \autoBeamOff \tempoSanctum
+			\set Score.currentBarNumber = #159
+	}
+}
+
+SanctumSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

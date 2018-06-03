@@ -331,6 +331,19 @@ UtDetIllisBassFigures = \figuremode {
 	r2. %158 finis
 }
 
+SanctumOrgano = {
+	\relative c {
+		\clef bass
+		\key a \minor \time 4/4 \tempoSanctum
+			\set Score.currentBarNumber = #159
+		\mvTr a'8\pE-\soloE r a, r h r e r
+	}
+}
+
+SanctumBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

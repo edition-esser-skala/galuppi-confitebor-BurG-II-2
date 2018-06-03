@@ -93,3 +93,13 @@ UtDetIllisViola = {
 		c r r\fermata \bar "||" %158 finis
 	}
 }
+
+SanctumViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
+		\key a \minor \time 4/4 \tempoSanctum
+			\set Score.currentBarNumber = #159
+		
+	}
+}

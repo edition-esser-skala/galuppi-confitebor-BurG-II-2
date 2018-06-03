@@ -151,3 +151,12 @@ UtDetIllisViolinoII = {
 		c c, r\fermata \bar "||" %158 finis
 	}
 }
+
+SanctumViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoSanctum
+			\set Score.currentBarNumber = #159
+		
+	}
+}

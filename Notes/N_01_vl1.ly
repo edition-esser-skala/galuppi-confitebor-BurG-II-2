@@ -151,3 +151,18 @@ UtDetIllisViolinoI = {
 		c c, r\fermata \bar "||" %158 finis
 	}
 }
+
+SanctumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key a \minor \time 4/4 \tempoSanctum
+			\set Score.currentBarNumber = #159
+	}
+}
+
+% ViolinoI = {
+% 	\relative c' {
+% 		\clef treble
+% 		
+% 	}
+% }
