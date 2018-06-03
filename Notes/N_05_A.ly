@@ -107,11 +107,107 @@ UtDetIllisAltoNotes = {
 		\clef treble
 		\key f \lydian \time 3/4 \autoBeamOff \tempoUtDetIllis
 			\set Score.currentBarNumber = #62
+		R2.*42 %103
+		\mvTr e4\pE^\soloE e e8 f
+		g4. f8 g4 %105
+		g f e
+		e d f
+		g2 f4~
+		f e2
+		d4 f f %110
+		f8([ d)] es4 es
+		es?8([ c)] d4 d
+		c4. b8[ c d]
+		es4 d c
+		d4. c8[ d es] %115
+		f4 es d
+		c c' b~
+		b8[ g] a4. b8
+		b4 r r
+		R2. %120
+		a4 a8 g f a
+		g2 g4
+		r r a
+		g f2
+		f4 e2 %125
+		g2.
+		f2 g4
+		f( e2)
+		f4 r r
+		R2.*3 %132
+		f4.( g8) a f
+		g4 c,2
+		f4.( e8) f4 %135
+		f4.( g8) a4
+		d,4.( e8) f4~
+		f8 d \appoggiatura c4 b2
+		a4 r a'
+		g4. f8 g e %140
+		f4 f, f'
+		e4. g8 f e
+		e4 d d8. e16
+		f4. g16[ f] e8[ f]
+		g4. a16[ g] f8[ g] %145
+		a4. h!16[ a] g8[ a]
+		h!4 c f,
+		e( d2\trill)
+		c4 c' a
+		f2^\critnote e4~ %150
+		e d2\trill
+		c4 r r
+		R2.*5 %157
+		R2.\fermataMarkup \bar "||" %158 finis
 	}
 }
 
 UtDetIllisAltoLyrics = \lyricmode {
+	Fi -- de -- li -- a %104
+	o -- mni -- a %105
+	man -- da -- ta
+	e -- ius, man --
+	da -- ta __
+	e --
+	ius, con -- fir -- %110
+	ma -- ta in
+	sae -- cu -- lum
+	sae -- _
+	_ _ _
+	_ _ %115
+	_ _ _
+	_ _ _
+	_ cu --
+	li,
+	%120
+	fa -- cta in ve -- ri --
+	ta -- te
+	et
+	ae -- qui --
+	ta -- te, %125
+	et
+	ae -- qui --
+	ta --
+	te. %129 finis
 	
+	Re -- dem -- pti -- %133
+	o -- nem
+	mi -- sit, %135
+	mi -- sit
+	po -- pu --
+	lo su --
+	o, man --
+	da -- vit in ae -- %140
+	ter -- num, man --
+	da -- vit in ae --
+	ter -- num, te -- sta --
+	men -- _ _
+	_ _ _ %145
+	_ _ _
+	_ _ tum
+	su --
+	um, te -- sta --
+	men -- tum __ %150
+	su --
+	um. %152 finis
 }
 
 % AltoNotes = {
@@ -122,5 +218,5 @@ UtDetIllisAltoLyrics = \lyricmode {
 % }
 % 
 % AltoLyrics = \lyricmode {
-% 	
+% 
 % }

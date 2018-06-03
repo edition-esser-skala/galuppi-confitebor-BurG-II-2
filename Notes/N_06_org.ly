@@ -158,11 +158,11 @@ UtDetIllisOrgano = {
 		d2 c4
 		b2 a4
 		g c c
-		f r e
+		f\fE r e
 		d r c %80
 		b r a
 		b c c
-		f r e
+		f\pE r e
 		d r c
 		b r a %85
 		g c c
@@ -178,13 +178,13 @@ UtDetIllisOrgano = {
 		d h! c
 		f g a
 		f g g,
-		c c' h!
+		c\fE c' h!
 		a r g %100
 		f r e
 		d h! g
 		c r r
 		R2.*6 %109
-		d4 r d %110
+		d4\pE r d %110
 		a r a
 		b r b
 		f' r r
@@ -203,11 +203,11 @@ UtDetIllisOrgano = {
 		c c, e
 		f d b
 		c2 c4
-		f r e
+		f\fE r e
 		d r c %130
 		b r a
 		b c c,
-		f r f'
+		f\pE r f'
 		e d c
 		d4. c8 b4 %135
 		a g f
@@ -226,7 +226,7 @@ UtDetIllisOrgano = {
 		a2 c4
 		d h'! c %150
 		f, g g,
-		c c' h!
+		c\fE c' h!
 		a2 g4
 		f2 e4
 		d h! g %155
@@ -253,7 +253,7 @@ UtDetIllisBassFigures = \figuremode {
 	r2 <6>4 %75
 	<5>2 <6>4
 	<5>2 <6>4
-	<7> q <6>
+	<7 [_-]> <[7-]>2
 	r2.
 	r2 <6>4 %80
 	<5> r <6>
@@ -261,7 +261,7 @@ UtDetIllisBassFigures = \figuremode {
 	r2 <6>4
 	<5>2 <6>4
 	<5>2 <6>4 %85
-	<7> <[7-]>2
+	<7 [_-]> <[7-]>2
 	r2.
 	r
 	<6>
@@ -271,8 +271,8 @@ UtDetIllisBassFigures = \figuremode {
 	<6>
 	r
 	<6> %95
-	r
-	<6>4 <_!> <5>
+	r4 <[5]> r
+	<6> <_!> <5>
 	r <_!>2
 	r <6>4
 	<5>2 <6>4 %100
@@ -281,20 +281,20 @@ UtDetIllisBassFigures = \figuremode {
 	r
 	r2.*6 %109
 	<5>2. %110
-	<6 4>4 <5- 3>2
-	<9 4>4 <8 3>2
+	<6 4>2 <5- 3>4
+	<9 [4-]>2 <8 3>4
 	<5>2.
-	r
+	<[7-]>
 	r %115
 	r
-	r2 <5>4
+	r2 <_->4
 	<7 5-> <5 3>2
 	r2.
 	r %120
 	r
-	r4 <_!>2
+	<[_-]>4 <_!>2
 	r2.
-	r
+	<[6]>
 	<6 4>4 <6>2 %125
 	<7->2.
 	r2 <6>4
@@ -308,7 +308,7 @@ UtDetIllisBassFigures = \figuremode {
 	r %135
 	<6>
 	r2 <6>4
-	<7> <7->2
+	<7 [_-]> <7->2
 	r2.
 	<6> %140
 	<5>2 <6>4
