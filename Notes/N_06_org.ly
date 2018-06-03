@@ -162,7 +162,7 @@ UtDetIllisOrgano = {
 		d r c %80
 		b r a
 		b c c
-		f\pE r e
+		f r e\pE
 		d r c
 		b r a %85
 		g c c
@@ -193,8 +193,8 @@ UtDetIllisOrgano = {
 		b? r r
 		f'2 g4
 		es f f,
-		b b' f
-		b, r b %120
+		b\fE b' f
+		b, r b\pE %120
 		f' r f
 		g c,2
 		f4 r f
@@ -207,7 +207,7 @@ UtDetIllisOrgano = {
 		d r c %130
 		b r a
 		b c c,
-		f\pE r f'
+		f r f'\pE
 		e d c
 		d4. c8 b4 %135
 		a g f
@@ -254,10 +254,10 @@ UtDetIllisBassFigures = \figuremode {
 	<5>2 <6>4
 	<5>2 <6>4
 	<7 [_-]> <[7-]>2
-	r2.
+	r2 <[6]>4
 	r2 <6>4 %80
 	<5> r <6>
-	r2.
+	<[6]>2.
 	r2 <6>4
 	<5>2 <6>4
 	<5>2 <6>4 %85
@@ -267,7 +267,7 @@ UtDetIllisBassFigures = \figuremode {
 	<6>
 	<6!> %90
 	r
-	r
+	<[6]>
 	<6>
 	r
 	<6> %95
@@ -300,7 +300,7 @@ UtDetIllisBassFigures = \figuremode {
 	r2 <6>4
 	<6 4> <5 3>2
 	r2 <6>4
-	<5>2. %130
+	<5>2 <[6]>4 %130
 	r2 <6>4
 	r2.
 	r
@@ -317,8 +317,8 @@ UtDetIllisBassFigures = \figuremode {
 	r2.
 	<6> %145
 	r
-	r
-	<4>4 <3>2
+	<[7]>
+	<[6] 4>4 <[5] 3>2
 	<5> <6>4
 	r2. %150
 	<7 5>4 <5 3>2
@@ -327,7 +327,7 @@ UtDetIllisBassFigures = \figuremode {
 	<5>2 <6>4
 	<5> <6>2 %155
 	r2.
-	<6>4 <4> <3>
+	<6>4 <[6] 4> <[5] 3>
 	r2. %158 finis
 }
 
