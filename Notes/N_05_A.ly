@@ -215,11 +215,73 @@ GloriaPatriAltoNotes = {
 		\clef treble
 		\key g \major \time 2/4 \autoBeamOff \tempoGloriaPatri
 			\set Score.currentBarNumber = #263
+		R2*19 %281
+		\mvTr g'4.\pE^\soloE h16. a32
+		\tuplet 3/2 8 { g16([ fis g)] } g4 e8(
+		\tuplet 3/2 8 { d16([ e fis)] g([ fis)] e } \appoggiatura d16 c8. h16
+		h4 h'8 g16. fis32 %285
+		e16.([ dis32)] e8 h' e,16. d?32
+		d16. cis32 cis8 r a'16. cis,32
+		d8.([ fis16)] e8. g16
+		fis8.[ a16] gis8.[ h16]
+		a8 h4 cis,8 %290
+		d4~ d16[ h' \appoggiatura a32 g16 \appoggiatura fis32 e16]
+		a,8.[ d16] e4\trill
+		d r
+		R2*6 %299
+		a'8 a4 c!8 %300
+		\tuplet 3/2 8 { a16([ gis a)] } a4.
+		h,16([ dis fis a] c!8) h16. a32
+		a8. g16 g4
+		R2
+		r4 a8. f16 %305
+		d4. e16. f32
+		\tuplet 3/2 8 { e16[ d c] } c'4 e,8
+		\tuplet 3/2 8 { d16[ c h] } h'4 d,8
+		\tuplet 3/2 8 { c16[ h a] } a'4 c,8
+		h8.[ d16] cis8.[ e16] %310
+		d8[ c'! h a]
+		g8.[ a16] a4\trill
+		g a8 e
+		d([ e16 fis)] g8 e
+		d8.([\fermata g16] a4)\trill %315
+		g\fermata r
+		R2*7 %323
+		R2\fermataMarkup \bar "||" %324 finis
 	}
 }
 
 GloriaPatriAltoLyrics = \lyricmode {
-
+	Glo -- ri -- a %282
+	Pa -- tri, Pa --
+	tri et Fi -- li --
+	o, glo -- ri -- a %285
+	Pa -- tri, Pa -- tri et
+	Fi -- li -- o et Spi --
+	ri -- tu -- i
+	San -- _
+	_ _ _ %290
+	_
+	_ _
+	cto.
+	
+	Glo -- ri -- a %300
+	Pa -- tri,
+	Pa -- tri et
+	Fi -- li -- o,
+	
+	et Spi -- %305
+	ri -- tu -- i
+	San -- _ _
+	_ _ _
+	_ _ _
+	_ _ %310
+	_
+	_ _
+	cto, et Spi --
+	ri -- tu -- i
+	San -- %315
+	cto. %316 finis
 }
 
 % AltoNotes = {
