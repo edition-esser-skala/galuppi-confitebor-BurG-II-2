@@ -217,3 +217,12 @@ IntellectusViola = {
 		e4 r8\fermata \bar "||" %262 finis
 	}
 }
+
+GloriaPatriViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
+		\key g \major \time 2/4 \tempoGloriaPatri
+			\set Score.currentBarNumber = #263
+	}
+}

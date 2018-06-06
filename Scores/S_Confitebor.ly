@@ -160,44 +160,81 @@
 % 			\midi { \tempo 4 = 60 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "4 INTELLECTUS BONUS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\IntellectusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\IntellectusViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\IntellectusViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \IntellectusSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \IntellectusSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IntellectusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\IntellectusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "4 INTELLECTUS BONUS"
+			movement = "5 GLORIA PATRI"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\IntellectusViolinoI
+							\GloriaPatriViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\IntellectusViolinoII
+							\GloriaPatriViolinoII
 						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\IntellectusViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \IntellectusSopranoNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \GloriaPatriAltoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \IntellectusSopranoLyrics
+					\new Lyrics \lyricsto Alto \GloriaPatriAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IntellectusOrgano
+						\GloriaPatriOrgano
 					}
 				>>
-				\new FiguredBass {
-					\IntellectusBassFigures
-				}
 			>>
 			\layout { }
 			\midi { \tempo 4. = 80 }

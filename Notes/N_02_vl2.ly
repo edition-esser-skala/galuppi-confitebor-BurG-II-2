@@ -272,3 +272,11 @@ IntellectusViolinoII = {
 		\time 3/8 e8 e' r\fermata \bar "||" %262 finis
 	}
 }
+
+GloriaPatriViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/4 \tempoGloriaPatri
+			\set Score.currentBarNumber = #263
+	}
+}

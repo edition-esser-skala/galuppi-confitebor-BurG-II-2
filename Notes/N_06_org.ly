@@ -563,6 +563,19 @@ IntellectusBassFigures = \figuremode {
 	r4. %262 finis
 }
 
+GloriaPatriOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 2/4 \tempoGloriaPatri
+			\set Score.currentBarNumber = #263
+		\mvTr g'8\pE-\senzaOrg g fis fis
+	}
+}
+
+GloriaPatriBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
