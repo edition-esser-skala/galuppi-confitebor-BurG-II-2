@@ -263,12 +263,123 @@ IntellectusSopranoNotes = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #183
-		
+		R2.*16 %198
+		\mvTr e'4.\pE^\soloE dis
+		d cis %200
+		c8([ h)] a g8. fis16 e8
+		r e fis g a h
+		c4. h8[ cis dis]
+		\once \tieDashed e4.~ e16[ dis? e g fis e]
+		dis16.[ cis?32] h8 r r4 r8 %205
+		r d e \appoggiatura d c4 h8~
+		h a g fis16([ g)] a4
+		d8 e d \appoggiatura d c4( h8~)
+		h a g fis16[ g a h c8]~
+		c[ h a] g16[ a h c d8]~ %210
+		d[ c h] a16[ h c d e8]~
+		e[ d c]~ c[ h16 a] h8
+		\appoggiatura h a4 r8 r e' fis
+		g([ h,)] cis d([ a)] h
+		c e, fis g4.~ %215
+		g g'8[ fis e]
+		d c h c \appoggiatura h a4
+		g r8 r e' fis
+		g([ h,)] cis d([ a)] h
+		c e, fis g4.~ %220
+		g g'8[ fis e]
+		d c h c \appoggiatura h a4
+		g r8 r4 r8
+		R2.*3 %226
+		d'4. cis8 a h
+		\appoggiatura d8 c4. h4 r8
+		R2.
+		e4. dis8 h cis %230
+		\appoggiatura e8 d4. cis4 r8
+		R2.
+		r4 r8 r h([ c)]
+		\appoggiatura h16 a8. g16 g8~ g fis e
+		h'4 h,8 r r h' %235
+		c4.~ c8[ d a]
+		h4.~ h8[ c g]
+		a4.~ a8[ h fis]
+		g16[ fis e8 c']~ c[ h a]
+		g16[ fis e8 e']~ e[ fis e] %240
+		dis8. cis16 h8 r cis([ dis)]
+		e gis, ais h([ fis)] gis
+		a cis, dis e4.~
+		e e'8[ d c]
+		h a g a \appoggiatura g fis4 %245
+		e r8 r cis'([ dis)]
+		e gis, ais h([ fis)] gis
+		a cis, dis e4.~
+		e e'8[ d c]
+		h a g a \appoggiatura g fis4 %250
+		e r8 r4 r8
+		e' h a g([ fis8.)]\trill e16
+		e4 r8 r r h'
+		e h a g([ fis8.)]\trill e16
+		e4\fermata r8 r4 r8 %255
+		R2.*6 %261
+		\time 3/8 R4.\fermataMarkup \bar "||" %262 finis
 	}
 }
 
 IntellectusSopranoLyrics = \lyricmode {
+	In -- tel -- %199
+	le -- ctus %200
+	bo -- nus o -- mni -- bus
+	fa -- ci -- en -- ti -- bus
+	e -- _
+	_
+	_ um: %205
+	Lau -- da -- ti -- o __
+	e -- ius ma -- net,
+	ma -- net in sae --
+	cu -- lum sae --
+	_ %210
+	_
+	cu --
+	li, lau -- da --
+	ti -- o e -- ius
+	ma -- net in sae -- %215
+	_
+	_ cu -- lum sae -- cu --
+	li, lau -- da --
+	ti -- o e -- ius
+	ma -- net in sae -- %220
+	_
+	_ cu -- lum sae -- cu --
+	li,
 	
+	lau -- da -- ti -- o %227
+	e -- ius,
+	
+	lau -- da -- ti -- o %230
+	e -- ius,
+	
+	lau --
+	da -- ti -- o __ e -- ius
+	ma -- net in %235
+	sae --
+	_
+	_
+	_
+	_ %240
+	_ cu -- lum, lau --
+	da -- ti -- o e -- ius
+	ma -- net in sae --
+	_
+	_ cu -- lum sae -- cu -- %245
+	li, lau --
+	da -- ti -- o e -- ius
+	ma -- net in sae --
+	_
+	_ cu -- lum sae -- cu -- %250
+	li,
+	ma -- net in sae -- cu --
+	lum, in
+	sae -- cu -- lum sae -- cu --
+	li. %255 finis
 }
 
 % SopranoNotes = {
