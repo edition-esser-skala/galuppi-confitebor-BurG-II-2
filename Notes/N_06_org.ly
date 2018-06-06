@@ -569,6 +569,67 @@ GloriaPatriOrgano = {
 		\key g \major \time 2/4 \tempoGloriaPatri
 			\set Score.currentBarNumber = #263
 		\mvTr g'8\pE-\senzaOrg g fis fis
+		e e c' c
+		h g a d, %265
+		g g a a
+		h h g g
+		fis d e a,
+		d d fis g
+		a a h h %270
+		c c c, d
+		e e fis fis
+		g g c c
+		h h c d
+		g, g c c %275
+		h h c d
+		g, a h c
+		d d d, d
+		g a h c
+		d d d, d %280
+		g4 r
+		g8 g fis fis
+		e e c' c
+		h g a d,
+		g g, g g %285
+		r g' g gis
+		a a g g
+		fis fis cis cis
+		d d h' h
+		a4 g %290
+		d8 e fis g
+		a4 a,
+		d8 d d d
+		e e fis fis
+		g g e e %295
+		fis fis gis gis
+		a a a a
+		d,16. h'32 a16. g32 fis8 g
+		a a a, a
+		d d c! c %300
+		h h h h
+		dis dis dis dis
+		e e e e
+		a a a a
+		d, d d d %305
+		g g g g
+		c, c c' c
+		h h e, e
+		a a d, d
+		g g e e %310
+		fis fis g c,
+		d4 d,
+		g c~
+		c h8 c
+		d2 %315
+		g8 r c r
+		h r c d
+		g, r c r
+		h r c d
+		g, a h c %320
+		d d d, d
+		g a h c
+		d d d, d
+		g4 r\fermata \bar "||" %324 finis
 	}
 }
 
