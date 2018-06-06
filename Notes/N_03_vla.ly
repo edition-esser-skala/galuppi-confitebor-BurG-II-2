@@ -135,5 +135,85 @@ IntellectusViola = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #183
+		r8 h'\fE c fis, r r
+		r a h e, r r
+		r e fis g a g %185
+		fis e dis e g a
+		h e, e e e g
+		a fis fis h h h
+		g e e dis4 r8
+		r a' c fis, g r %190
+		R2.
+		r8 a c fis, g r
+		e4.\pE dis8 h c
+		a h h e\fE e d
+		c h a g c e %195
+		e e dis r e\pE d
+		c h a g\fE c e
+		e e dis e4 r8
+		r8 g\pE a h4 r8
+		r fis gis a4 r8 %200
+		r dis, h e h g
+		e4 r8 e'4 r8
+		r e fis g fis4
+		e8 c h ais4.
+		h8\fE dis fis h h a %205
+		g4 g8\pE a fis g
+		cis,4. d8 d' c?
+		h g r a fis g
+		cis,4. d8 d d
+		d\f d[\p d] d d d %210
+		d\f d[\p d] d d d
+		c\f c[\p c] cis cis cis
+		d d d d, r r
+		R2.
+		r4 r8 r g' fis %215
+		e d c h a g
+		fis4 g8 c d d,
+		g h d g4 r8
+		R2.
+		r4 r8 r g fis %220
+		e d c' h a g
+		fis d g c d d,
+		r d'\fE e a,4 r8
+		r c d g,4 r8
+		r g a h c d %225
+		a4 e8 fis4 r8
+		r fis\p gis a4 r8
+		r e fis g d'[\fE e]
+		a,4 r8 r c d
+		c g[\pE a] h4 r8 %230
+		r fis gis a e[\fE fis]
+		h,4 r8 r d e
+		a,4 r8 dis4\pE^\critnote r8
+		e4 r8 c!4 r8
+		h h' a g e g %235
+		a4 r8 r d, fis
+		g4 r8 r c, e
+		fis4 r8 r h, dis
+		e e e e e e
+		e e e c a a %240
+		h4 r8 r4 r8
+		R2.
+		r4 r8 r e' d
+		c h a g fis e
+		dis4 e8 a h h, %245
+		e h g e4 r8
+		R2.
+		r4 r8 r e'' d
+		c h a g fis e
+		dis4 e8 a h h, %250
+		e\fE e' d c h a
+		g4 a8\pE h h, h
+		e\fE e' d c h a
+		g\pE g a h4 h,8
+		g'\fE a h r c a %255
+		fis g r r4 r8
+		r4 r8 r e a
+		fis g r e4.\pE
+		dis8 h c a h h
+		e\fE e' d c h a %260
+		g e e e e dis
+		e4 r8\fermata \bar "||" %262 finis
 	}
 }
