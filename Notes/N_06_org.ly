@@ -398,6 +398,85 @@ IntellectusOrgano = {
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #183
 		r8 \mvTr g'\fE-\soloE a h r r
+		r fis gis a r r
+		r c,! dis e fis g %185
+		a h h, e e fis
+		g a gis a g e
+		fis h a g dis h
+		e c c h4 r8
+		r fis' a h e, r %190
+		R2.
+		r8 a, a' h e, r
+		R2.
+		r4 r8 e e' d
+		c h a g c a %195
+		h4 h,8 e e d
+		c h a g c a
+		h4 h8 e4 r8
+		r8 g\pE a h4 r8
+		r fis gis a4 r8 %200
+		r dis, h e h g
+		e4 r8 e'4 r8
+		r e fis g fis4
+		e8 c h ais4.
+		h8 dis fis h h a %205
+		g4 g8 a fis g
+		cis,4. d8 d' c?
+		h g r a fis g
+		cis,4. d8 d d
+		d d[ d] d d d %210
+		d d[ d] d d d
+		c c[ c] cis cis cis
+		d d d d, r r
+		R2.
+		r4 r8 r g' fis %215
+		e d c h a g
+		fis4 g8 c d d,
+		g h d g4 r8
+		R2.
+		r4 r8 r g fis %220
+		e d c' h a g
+		fis d g c d d,
+		g h cis d4 r8
+		r a h c4 r8
+		r e, fis g, a h %225
+		cis4. d4 r8
+		R2.
+		r4 r8 r h' cis
+		d4 r8 r a h
+		c!4 r8 r4 r8 %230
+		r4 r8 r cis, dis
+		e4 r8 r h cis
+		d4 r8 dis4 r8
+		e4 r8 c!4 r8
+		h h' a g e g %235
+		a4 r8 r d, fis
+		g4 r8 r c, e
+		fis4 r8 r h, dis
+		e e e e e e
+		e e e c a a %240
+		h4 r8 r4 r8
+		R2.
+		r4 r8 \clef "treble_8" r e' d
+		c h a \clef bass g fis e
+		dis4 e8 a h h, %245
+		e h g e4 r8
+		R2.
+		r4 r8 \clef "treble_8" r e'' d
+		c h a g fis e
+		\clef bass dis4 e8 a h h, %250
+		e e' d c h a
+		g4 a8 h h, h
+		e e' d c h a
+		g g a h4 h,8
+		e fis g r a c %255
+		h e, r r4 r8
+		r4 r8 r a c
+		h e, r r4 r8
+		R2.
+		e8 e' d c h a %260
+		h c a h4 h,8
+		\time 3/8 e4 r8\fermata \bar "||" %262 finis
 	}
 }
 
