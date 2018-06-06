@@ -410,8 +410,8 @@ IntellectusOrgano = {
 		R2.
 		r4 r8 e e' d
 		c h a g c a %195
-		h4 h,8 e e d
-		c h a g c a
+		h4 h,8 e\pE e d
+		c h a g\fE c a
 		h4 h8 e4 r8
 		r8 g\pE a h4 r8
 		r fis gis a4 r8 %200
@@ -419,14 +419,14 @@ IntellectusOrgano = {
 		e4 r8 e'4 r8
 		r e fis g fis4
 		e8 c h ais4.
-		h8 dis fis h h a %205
-		g4 g8 a fis g
+		h8\fE dis fis h h a %205
+		g4 g8\pE a fis g
 		cis,4. d8 d' c?
 		h g r a fis g
 		cis,4. d8 d d
-		d d[ d] d d d %210
-		d d[ d] d d d
-		c c[ c] cis cis cis
+		d\f d[\p d] d d d %210
+		d\f d[\p d] d d d
+		c\f c[\p c] cis cis cis
 		d d d d, r r
 		R2.
 		r4 r8 r g' fis %215
@@ -466,7 +466,7 @@ IntellectusOrgano = {
 		c h a g fis e
 		\clef bass dis4 e8 a h h, %250
 		e\fE e' d c h a
-		g4\pE a8 h h, h
+		g4 a8\pE h h, h
 		e\fE e' d c h a
 		g\pE g a h4 h,8
 		e\fE fis g r a c %255
@@ -475,7 +475,7 @@ IntellectusOrgano = {
 		h e, r r4 r8
 		R2.
 		e8 e' d c h a %260
-		h c a h4 h,8
+		g c a h4 h,8
 		\time 3/8 e4 r8\fermata \bar "||" %262 finis
 	}
 }
@@ -483,10 +483,10 @@ IntellectusOrgano = {
 IntellectusBassFigures = \figuremode {
 	r8 <6>4 <_+>4. %183
 	r8 <6!>4 <_+>4.
-	r8 <6>4 <5>4 <6>8 %185
-	<6> <4> <_+> r4.
-	r4 <6>8 r <6 4+>4
-	<6>8 <_+> r <6> q r
+	r8 <6>4 <5>8 <[6\\]> <6> %185
+	<6> <[6] 4> <[7] _+> r4.
+	<[6]>4 <6>8 r <6 4+>4
+	<6>8 <_+> r <6> q <[_+]>
 	r <6+>4 <_+>4.
 	r8 <5>4 <_+>4. %190
 	r2.
@@ -494,9 +494,9 @@ IntellectusBassFigures = \figuremode {
 	r2.
 	r
 	<6>4. q %195
-	<4>4 <_+>8 r4.
+	<[6] 4>8 <[5] [\t]> <[\t] _+> r4.
 	<6> q
-	<4>4 <_+>8 r4.
+	<[6] 4>8 <[5] [\t]> <[\t] _+> r4.
 	r8 <6>4 <_+>4.
 	r8 <6!>4 <_+>4. %200
 	r8 <6> <[_+]> r4.
@@ -515,19 +515,19 @@ IntellectusBassFigures = \figuremode {
 	r
 	r %215
 	<6>4. q8 <[6]> q
-	<6>2.
-	r
+	<6>4. <[6]>
+	r2.
 	r
 	r %220
 	<6>4. q8 <[6]> q
-	<6>2.
-	r8 <[6]>4 <[_+]>4.
-	r8 <6!>4 <_!>4.
-	r8 <6>4 r4. %225
-	<6 5> <3>
+	<6>4. <[6]>
+	r8 <[6]>4 r4.
+	r8 <6!>4 r4.
+	r8 <6>4 r8 <[6]> q %225
+	<6 5>4. <3>
 	r2.
 	r4. r8 <6>4
-	<[_+]>4. r8 <6!>4
+	r4. r8 <6!>4
 	r2. %230
 	r4. r8 <6>4
 	<_+>4. r8 <6!>4
@@ -536,9 +536,9 @@ IntellectusBassFigures = \figuremode {
 	<_+>4. <6> %235
 	r r8 <7>4
 	q4. r8 q4
-	q4. r8 <7 _+>4
-	r4. <6 4>
-	<5 3> <5>8 <6 _+>4 %240
+	<7 [5+]>4. r8 <7 _+>4
+	r4 <6 4> <[5] [3]>8 <[4] [2]>
+	<5 3>4. <5>8 <6 [4+]> <[5] _+> %240
 	<_+>2.
 	r
 	r
@@ -552,14 +552,14 @@ IntellectusBassFigures = \figuremode {
 	r4. <6>
 	q <6 4>8 <5 _+>4
 	r4. <6>
-	q <4>8 <_+>4
+	q <[6] 4>8 <[5] _+>4
 	r2. %255
 	<_+>
 	r
 	<_+>
 	r
 	r4. <6> %260
-	q <4>4 <_+>8
+	<6 ><[6] [4]>8 <[5] [\t]> <[\t] [_+]>
 	r4. %262 finis
 }
 

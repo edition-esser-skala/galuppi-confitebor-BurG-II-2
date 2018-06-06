@@ -191,6 +191,85 @@ IntellectusViolinoI = {
 			\set Staff.timeSignatureFraction = 3/4
 			\override Staff.TimeSignature.style = #'single-digit
 			\set Score.currentBarNumber = #183
+		e'4.\fE dis8( h' cis,)
+		d4. cis8( a' h,)
+		c4. h8-! dis-! e-! %185
+		fis g a g16 fis e4
+		r16 h c h c h c cis d cis d cis
+		d dis e dis e dis e fis g fis g fis
+		g ais h ais h ais h8 h, r
+		c'4. dis,8 e r %190
+		fis,\p g a g16 fis e4
+		c''4.\f dis,8 e r
+		c8(\p h ais) h( dis, e)
+		a16 g fis4\trill e16\f dis' e dis e dis
+		e dis e dis e dis e8 e, a' %195
+		g32 fis e16 fis4\trill e16\p dis e dis e dis
+		e dis e dis e dis e8\f e, a
+		g32 fis e16 fis4\trill e r8
+		e'4.\p dis8 h' cis,
+		d4. cis8 a' h, %200
+		c h a g e r
+		R2.*2
+		h'8 e fis g fis e
+		dis h r r16 h\f c d e fis %205
+		g8 d(\p e) \appoggiatura d c4 h8~
+		h a g fis16 g a4
+		d8 e d \appoggiatura d c4 h8~
+		h a g fis-! a-! c-!
+		a'16.\f c,32 h8[\p a] g-! h-! d-! %210
+		h'16.\f d,32 c8[\p h] a c e
+		c'16.\f e,32 d8[\p c]~ c h h
+		a4 r8 r e'( fis)
+		g h,( cis) d a( h)
+		c e,( fis) g4.~ %215
+		g16 h c d e fis g8 fis e
+		d c h c \appoggiatura h a4
+		g8 g, r r e''( fis)
+		g h,( cis) d a( h)
+		c e,( fis) g4.~ %220
+		g16 h c d e fis g8\f fis e
+		d c h c \appoggiatura h a4\trill
+		g'4. fis8 d e
+		f4. e8 d c
+		c'4. h8 a g %225
+		e g a d,4 r8
+		R2.
+		r4 r8 g4.\f
+		fis8 d e f4.
+		e4 r8 r4 r8 %230
+		r4 r8 a4.\f
+		gis8 e fis g4.
+		fis4 r8 r4 r8
+		R2.
+		r8 h,\pE dis e4 r8 %235
+		r c e fis4 r8
+		r h, d e4 r8
+		r a, cis dis4 r8
+		r h c~ c h a
+		g e' g~ g fis e %240
+		dis16 h fis dis h8 r cis'( dis)
+		e gis,( ais) h fis( gis)
+		a cis,( dis) e4.~
+		e16 g a h c d e8 d c
+		h a g a \appoggiatura g fis4 %245
+		e4 r8 r cis'( dis)
+		e gis,( ais) h fis( gis)
+		a cis,( dis) e4.~
+		e16 g a h c d e8 d c
+		h a g a \appoggiatura g fis4\trill %250
+		e16\f dis' e dis e dis e dis e dis e dis
+		e8 e, a'\p g32 fis e16 fis4\trill
+		e16\f dis e dis e dis e dis e dis e dis
+		e8 e, c'\p g32 fis e16 fis4\trill
+		e r8 c''4.\f %255
+		dis,8 e r fis,\p g a
+		g16 fis e4 c''4.\f
+		dis,8 e r c(\p h ais)
+		h( dis e) c32( h a16) \appoggiatura g8 fis4
+		e16\f dis' e dis e dis e dis e dis e dis %260
+		e8 e, a g32( fis e16) fis4\trill
+		\time 3/8 e8 e' r\fermata \bar "||" %262 finis
 	}
 }
 
