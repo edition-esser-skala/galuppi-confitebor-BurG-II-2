@@ -116,48 +116,91 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3 SANCTUM ET TERRIBILE"
+% 		}
+% 		\paper { page-count = #6 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\SanctumViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\SanctumViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\SanctumViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \SanctumSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \SanctumSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\SanctumOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\SanctumBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3 SANCTUM ET TERRIBILE"
+			movement = "4 INTELLECTUS BONUS"
 		}
-		\paper { page-count = #6 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\SanctumViolinoI
+							\IntellectusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\SanctumViolinoII
+							\IntellectusViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\SanctumViola
+						\IntellectusViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \SanctumSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \IntellectusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \SanctumSopranoLyrics
+					\new Lyrics \lyricsto Soprano \IntellectusSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\SanctumOrgano
+						\IntellectusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\SanctumBassFigures
+					\IntellectusBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4. = 90 }
 		}
 	}
 }

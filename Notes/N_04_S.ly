@@ -256,6 +256,21 @@ SanctumSopranoLyrics = \lyricmode {
 	_ _ mi -- ni. %181 finis
 }
 
+IntellectusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 6/8 \autoBeamOff \tempoIntellectus
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #183
+		
+	}
+}
+
+IntellectusSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

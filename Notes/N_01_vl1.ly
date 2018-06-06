@@ -184,6 +184,16 @@ SanctumViolinoI = {
 	}
 }
 
+IntellectusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key e \minor \time 6/8 \tempoIntellectus
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #183
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

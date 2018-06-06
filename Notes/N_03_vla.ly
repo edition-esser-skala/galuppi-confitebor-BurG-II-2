@@ -126,3 +126,14 @@ SanctumViola = {
 		a8 r d16. f32 e32.[ d64 c32. h64] a4 r\fermata \bar "||" %182 finis
 	}
 }
+
+IntellectusViola = {
+	\relative c' {
+% 		\clef treble
+		\clef alto
+		\key e \minor \time 6/8 \tempoIntellectus
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #183
+	}
+}

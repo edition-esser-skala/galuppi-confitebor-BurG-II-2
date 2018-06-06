@@ -390,6 +390,21 @@ SanctumBassFigures = \figuremode {
 	r4 <5>8 <_+> r2 %182 finis
 }
 
+IntellectusOrgano = {
+	\relative c {
+		\clef bass
+		\key e \minor \time 6/8 \tempoIntellectus
+			\set Staff.timeSignatureFraction = 3/4
+			\override Staff.TimeSignature.style = #'single-digit
+			\set Score.currentBarNumber = #183
+		r8 \mvTr g'\fE-\soloE a h r r
+	}
+}
+
+IntellectusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
