@@ -278,6 +278,66 @@ GloriaPatriViolinoI = {
 		\clef treble
 		\key g \major \time 2/4 \tempoGloriaPatri
 			\set Score.currentBarNumber = #263
+		\mvTr g''8\pE-\markup { \remark "con sordino" } g4 h8
+		\appoggiatura a16 \tuplet 3/2 8 { g( fis g) }  g4 e8
+		\tuplet 3/2 8 { d16([ c h)] g'( fis e) } \appoggiatura d8 c4 %265
+		h r
+		R2*2
+		d'8 d~ \tuplet 3/2 8 { d16([ c h)] \appoggiatura c h( a g)
+		f[ e f] } f8~ \tuplet 3/2 8 { f16[ a g] f e d %270
+		e[ d c] } c,8 r4
+		R2
+		\tuplet 3/2 8 { d'16([ fis g)] } g8 \tuplet 3/2 8 { e16([ fis g)] } g8
+		\tuplet 3/2 8 { d16([ fis g)] } g8 \tuplet 3/2 8 { e16([ d c)] h( c a) }
+		g8 r r4 %275
+		R2
+		\tuplet 3/2 8 { h'16([ a g)] fis( g e) d([ e c)] h( c a) }
+		d,8~ d32( e fis g64 a) a8.\trill g16
+		\tuplet 3/2 8 { g'16([ fis e)] d( e c) h([ c a)] g( a e) }
+		d8 g4 fis8 %280
+		g g' g,4
+		R2
+		\tuplet 3/2 8 { r16 h c d[ e fis] } g8 g,
+		r g'4 fis8
+		\tuplet 3/2 8 { r16 h, c d[ e fis] } g8 h, %285
+		R2
+		\tuplet 3/2 8 { r16 cis d e[ fis g] } a8 cis,
+		\tuplet 3/2 8 { r16 d-![ fis-!] } a8-! r4
+		\tuplet 3/2 8 { r16 d,-![ fis-!] } a8-! r4
+		r d,16(-. d-. e-. e-.) %290
+		fis(-. fis-. g-. g-.) a8 h
+		fis4 r
+		a8 a~ \tuplet 3/2 8 { a16[ g fis] \appoggiatura g fis[ e d]
+		c![ h c] } c8~ \tuplet 3/2 8 { c16[ e d] c[ h a]
+		h[ a g] } g,8 r4 %295
+		R2
+		\tuplet 3/2 8 { r16 a'' h g[ g a] fis fis g e[ e g]
+		fis d'-! d-! d[-! d-! d-!] d a fis h[ g e] }
+		a,8~ a32( h cis d64 e) e8.\trill d16
+		d4 r %300
+		R2*2
+		h'8 h~ \tuplet 3/2 8 { h16 a g fis[ e d]
+		cis[ d e] } e8~ \tuplet 3/2 8 { e16[ d cis] h a g
+		fis[ e d] } d8 r4 %305
+		R2
+		\tuplet 3/2 8 { e'16[ fis g] } g8 \tuplet 3/2 8 { e16[ fis g] } g8
+		\tuplet 3/2 8 { d16[ fis g] } g8 \tuplet 3/2 8 { d16[ fis g] } g8
+		\tuplet 3/2 8 { c,16[ fis a] } a8~ \tuplet 3/2 8 { a16[ g fis] e d c }
+		h8 d g g %310
+		fis a h e,
+		g g4 fis8
+		g4 r
+		R2\fermataMarkup
+		R %315
+		\tuplet 3/2 8 { d16[ fis g] } g8\trill \tuplet 3/2 8 { e16[ fis g] } g8\trill
+		\tuplet 3/2 8 { d16[ fis g] } g8 \tuplet 3/2 8 { e16[ d c] h c a }
+		g4 r
+		R2
+		\tuplet 3/2 8 { h'16[ a g] fis g e d[ e c] h c a } %320
+		d,8~ d32 e fis g64 a a8.\trill g16
+		\tuplet 3/2 8 { g'16[ fis e] d e c h[ c a] g a e }
+		d8 g4 fis8
+		g g' g,4\fermata \bar "||" %324 finis
 	}
 }
 

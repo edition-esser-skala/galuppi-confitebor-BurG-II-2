@@ -620,7 +620,7 @@ GloriaPatriOrgano = {
 		d4 d,
 		g c~
 		c h8 c
-		d2 %315
+		d2\fermata %315
 		g8 r c r
 		h r c d
 		g, r c r
