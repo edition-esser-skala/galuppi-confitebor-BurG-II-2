@@ -229,9 +229,66 @@ GloriaPatriViola = {
 
 SicutEratViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key c \major \time 2/4 \tempoSicutErat
 			\set Score.currentBarNumber = #325
+		e4\fE e %325
+		e r
+		r8 g g g
+		g4 r
+		r8 c h h
+		c c, c f %330
+		d fis g g
+		g4 fis
+		g r
+		R2*6 %339
+		r8 d\fE g e %340
+		f! a, f4
+		r8 d' f d
+		e g, e4
+		R2*10 %353
+		r8 fis'\pE h gis
+		a4 r %355
+		r8 e a fis
+		g4 r8 g
+		c a fis g16 a
+		h8 g e fis16 g
+		a8 fis d e16 fis %360
+		g4 r
+		R2
+		h,4\fE h
+		h r
+		r8 h' d fis, %365
+		g4 r
+		r8 g fis fis
+		g4 e
+		fis r
+		R2*6 %375
+		r8 c\pE a d
+		g,4 r
+		r8 b g c
+		f,4 r
+		r8 d' f d %380
+		es4 r
+		r8 c es c
+		d4 d
+		c c
+		d r8 c %385
+		f d h c16 d
+		e8 c a h16 c
+		d8 h g a16 h
+		c4 r
+		R2*2 %391
+		r8 a' c a
+		b4 r
+		r8 g b g
+		a4 r %395
+		r8 a h! g
+		g4 a
+		g8 g g f
+		e4 r
+		r g\fE %400
+		g r\fermata \bar "|." %401 FINIS
 	}
 }

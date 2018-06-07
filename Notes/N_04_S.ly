@@ -401,7 +401,7 @@ SicutEratSopranoNotes = {
 		h2
 		a4 r
 		r8 d4( c16[ h)]
-		c4 r %355
+		c!4 r %355
 		r8 c4( h16[ a)]
 		h4 r
 		e4. d16[ c]

@@ -340,7 +340,7 @@ SicutEratViolinoII = {
 		\clef treble
 		\key c \major \time 2/4 \tempoSicutErat
 			\set Score.currentBarNumber = #325
-		<c' g c,>4\fE q
+		<c' g e c>4\fE <c g c,> %325
 		c16 g e g c g e g
 		c8-! c32( d e16) d8-! d32( e f16)
 		e c g c e c g c
@@ -401,7 +401,7 @@ SicutEratViolinoII = {
 		c8 h16 c d8 c
 		h c \appoggiatura c h4\trill
 		c r
-		r h %400
+		r h\fE %400
 		<c g e c> r\fermata \bar "|." %401 FINIS
 	}
 }

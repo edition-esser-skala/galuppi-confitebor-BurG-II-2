@@ -642,7 +642,7 @@ SicutEratOrgano = {
 		\clef bass
 		\key c \major \time 2/4 \tempoSicutErat
 			\set Score.currentBarNumber = #325
-		\mvTr c4\fE-\soloE c
+		\mvTr c4\fE-\soloE c %325
 		c r
 		r8 c' h g
 		c4 r
@@ -716,7 +716,7 @@ SicutEratOrgano = {
 		c4 f
 		g8 c, g' g,
 		c4 g'-!
-		c-! g-! %400
+		c-! g-!\fE %400
 		c,-! r\fermata \bar "|." %401 FINIS
 	}
 }
@@ -727,7 +727,7 @@ SicutEratBassFigures = \figuremode {
 	r4 <6>
 	r2
 	r4 <6>
-	q2 %330
+	q4. <[6]>8 %330
 	r8 <6+> <6>4
 	<7> <_+>
 	r2
@@ -738,7 +738,7 @@ SicutEratBassFigures = \figuremode {
 	<9>4 <_+>
 	r2
 	r4 <6+>8 <[_+]> %340
-	r2
+	<[_!]>2
 	r8 <6> q4
 	r2
 	r4 <6+>8 <_+>
@@ -752,7 +752,7 @@ SicutEratBassFigures = \figuremode {
 	<9> <3>
 	<_+>2
 	r8 <[6] [_+]> <6+> <[_+]>
-	<5>2 %355
+	<5 [_!]>2 %355
 	r8 <[6]> <6+> <[_+]>
 	r2
 	<7>4 <[7]>
