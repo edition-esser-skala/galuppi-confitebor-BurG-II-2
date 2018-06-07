@@ -387,10 +387,102 @@ SicutEratSopranoNotes = {
 		\clef treble
 		\key c \major \time 2/4 \autoBeamOff \tempoSicutErat
 			\set Score.currentBarNumber = #325
-		
+		R2*11 %335
+		\mvTr c'4\pE^\soloE e
+		d8. c16 h8 d
+		c c16 h a8 c
+		h4 g
+		R2*14 %353
+		r8 d'4( c16[ h)]
+		c4 r %355
+		r8 c4( h16[ a)]
+		h4 r
+		e4. d16[ c]
+		d4. c16[ h]
+		c4. h16[ a] %360
+		h8 c d e
+		h4( a\trill)
+		g r
+		R2*5 %368
+		d'4 e
+		d8. c16 h8 d %370
+		c c16 h a8 c
+		h g r4
+		R2*2
+		r4 c8 c %375
+		e, fis16 g fis8 g16([ a)]
+		g([ fis?)] g8 r4
+		R2*2
+		r8 d'4( c16[ h)] %380
+		c4 r
+		r8 c4( b16[ a)]
+		b4 b~
+		b8[ a16 g] a8[ g16 f]
+		h4 c~ %385
+		c8[ h16 c] d4~
+		d8[ c16 h] c4~
+		c8[ h16 a] h4
+		c8[ h16 c] d8[ c]
+		h c \appoggiatura c h4 %390
+		c4 r
+		r8 c4( b16[ a)]
+		b?4 r
+		r8 b4( a16[ g)]
+		a4 f'8 f %395
+		a, h!16 c h8 c16([ d)]
+		c8 h16([ c)] d8 c
+		h c \appoggiatura c h4
+		c4 h
+		c r %400
+		R2\fermataMarkup \bar "|." %401 FINIS
 	}
 }
 
 SicutEratSopranoLyrics = \lyricmode {
+	Si -- cut %336
+	e -- rat in prin --
+	ci -- pio, et nunc et
+	sem -- per,
 	
+	a -- %354
+	men, %355
+	a --
+	men,
+	a -- _
+	_ _ 
+	_ _ %360
+	_ men, a -- men,
+	a --
+	men.
+	
+	Si -- cut %369
+	e -- rat in prin -- %370
+	ci -- pio, et nunc et
+	sem -- per,
+	
+	et in %375
+	sae -- cu -- la sae -- cu --
+	lo -- rum,
+	
+	a -- %380
+	men,
+	a --
+	men, a --
+	_ 
+	_ _ %385
+	_
+	_
+	_
+	_ _
+	_ men, a -- %390
+	men,
+	a --
+	men,
+	a --
+	men, et in %395
+	sae -- cu -- la sae -- cu --
+	lo -- rum, sae -- cu --
+	lo -- rum, a --
+	men, a --
+	men. %400 FINIS
 }
