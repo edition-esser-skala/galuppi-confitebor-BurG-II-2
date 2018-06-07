@@ -278,5 +278,59 @@ GloriaPatriViolinoII = {
 		\clef treble
 		\key g \major \time 2/4 \tempoGloriaPatri
 			\set Score.currentBarNumber = #263
+		R2*3 %265
+		\mvTr d'8\pE-\markup { \remarkE "con sordino" } d4 fis8
+		\appoggiatura e16 \tuplet 3/2 8 { d16[ cis d] } d4 h8
+		\tuplet 3/2 8 { a16[ g fis] d' cis h } \appoggiatura a8 g4
+		fis4 r
+		R2 %270
+		g'8 g~ \tuplet 3/2 8 { g16[ f e] \appoggiatura f e[ d c]
+		c[ h c] } c8~ \tuplet 3/2 8 { c16[ e d] c h a
+		h[ a g] } g,8 r4
+		R2
+		\tuplet 3/2 8 { d''16([ fis g)] } g8 \tuplet 3/2 8 { e16[( fis g]) } g8 %275
+		\tuplet 3/2 8 { d16[ fis g] } g8 \tuplet 3/2 8 { e16[ d c] h c a }
+		g8 r r4
+		R2
+		\tuplet 3/2 8 { h'16([ a g)] fis( g e) d([ e c)] h( c a) }
+		d,8~ d32( e fis g64 a) a8.\trill g16 %280
+		g8 d h4
+		R2
+		\tuplet 3/2 8 { r16 g' a h[ c d] } e8 e,
+		r h' c a
+		h4 r %285
+		\tuplet 3/2 8 { r16 g a h[ c d] } e8 e,
+		R2
+		r4 \tuplet 3/2 8 { r16 cis'-![ e-!] } a8-!
+		r4 \tuplet 3/2 8 { r16 h,-![ d-!] } gis8-\parenthesize-!
+		r4 h,16(-. h-. cis-. cis-.) %290
+		d(-. d-. d-. d-.) d8 d
+		d4 r
+		R2*2
+		h'8 h~ \tuplet 3/2 8 { h16[ a g] \appoggiatura a g fis e %295
+		d[ cis d] } d8~ \tuplet 3/2 8 { d16[ fis e] d cis h
+		cis[ fis g] e e fis d[ d e] cis cis e
+		d fis fis fis[ fis fis] fis d a d[ h g] }
+		fis8 d'4 cis8
+		d4 r %300
+		R2*4
+		a'8 \once \tieDashed a~ \tuplet 3/2 8 { a16[ g f] e d c %305
+		h[ c d] } d8~ \tuplet 3/2 8 { d16[ c h] a g f }
+		e8 e' e e
+		d d h h
+		c c a a
+		h h cis cis %310
+		d d d c
+		h4 a\trill
+		h r
+		R2\fermataMarkup
+		R2*3 %317
+		\tuplet 3/2 8 { d16[ fis g] } g8\trill \tuplet 3/2 8 { e16[ fis g] } g8\trill
+		\tuplet 3/2 8 { d16[ fis g] } g8 \tuplet 3/2 8 { e16[ d c] h c a }
+		g4 r %320
+		R2
+		\tuplet 3/2 8 { h'16[ a g] fis g e d[ e c] h c a }
+		d,8~ d32 e fis g64 a a8.\trill g16
+		g8 g' g,4\fermata \bar "||" %324 finis
 	}
 }
