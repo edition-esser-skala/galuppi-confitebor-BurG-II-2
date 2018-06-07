@@ -346,5 +346,68 @@ SicutEratViolinoI = {
 		\clef treble
 		\key c \major \time 2/4 \tempoSicutErat
 			\set Score.currentBarNumber = #325
+		<c' g c,>4\fE q
+		c16 g e g c g e g
+		c8-! c32( d e16) d8-! d32( e f16)
+		e c g c e c g c
+		e8-! e32( f g16) f8-! f32( g a16)
+		g8.(\trill f32 g) a8 c, %330
+		\tuplet 3/2 8 { h16([ c d)] c( d e) } d8 g
+		\appoggiatura d4 c2
+		h4 r
+		R2*5 %338
+		r8 g'-!\fE g-! g-!
+		h,8.( cis32 d) cis8.( d32 e) %340
+		d8 f! f f
+		a,8.( h32 c) h8.( c32 d)
+		c8 g c,4
+		R2*9 %352
+		r8 d''[\f d d]
+		fis,8.(\p gis32 a) gis8.( a32 h)
+		a8 c[\f c c] %355
+		e,8.(\p fis32 g!) fis8.( g32 a)
+		g4 r8 g,
+		c a fis g16 a
+		h8 g e fis16 g
+		a8 fis d e16 fis %360
+		g4 r
+		R2
+		<g' h, d, g,>4\fE q
+		g16 d h d g d h d
+		g8 g32( a h16) a8 a32( h c16) %365
+		h16 g d g h g d g
+		h8.( a32 h) c8.( h32 c)
+		d8 c16 h a8 g
+		fis32[ e d16] d,8 r4
+		r g~\pE %370
+		g fis
+		g r
+		R2*3 %375
+		r8 c4 h16 a
+		h4 r
+		r8 b4 a16 g
+		a8 f'[\f f f]
+		a,8.(\p h32 c) h8.( c32 d) %380
+		c8 es[\f es es]
+		g,8.(\p a32 b) a8.( b32 c)
+		b4 d-!
+		e-! f-!
+		d e8 c, %385
+		f d h c16 d
+		e8 c a h16 c
+		d8 h g a16 h
+		c4 r
+		R2 %390
+		r8 c''[\f c c]
+		e,8.(\p fis32 g) fis8.( g32 a)
+		g8 b[\f b b]
+		d,8.(\p e32 f) e8.( f32 g)
+		f8 f, r4 %395
+		r8 f'4 e16 d
+		e8 d16 e f8 e
+		d e d4\trill
+		c r
+		r d %400
+		<e g, c,> r\fermata \bar "|." %401 FINIS
 	}
 }
