@@ -7,8 +7,47 @@
 \include "../definitions.ly"
 
 \paper {
-	first-page-number = #1
-	systems-per-page = #1
+	#(set-paper-size "a4" 'portrait)
+	indent = 2\cm
+	top-margin = 1.5\cm
+	system-separator-markup = ##f
+	system-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-markup-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . -100)
+       (stretchability . 0))
+		
+	markup-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	last-bottom-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 1.0e7))
+	systems-per-page = #4
+}
+
+\layout {
+	\context {
+		\Lyrics
+		\override LyricText.font-size = #-.5
+	}
 }
 
 #(set-global-staff-size 15.87)
@@ -20,35 +59,15 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\ConfiteborViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\ConfiteborViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\ConfiteborViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = \SopranoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \ConfiteborSopranoNotes }
 					}
 					\new Lyrics \lyricsto Soprano \ConfiteborSopranoLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = \AltoIncipit
-						\override Staff.InstrumentName.self-alignment-Y = ##f
-						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \ConfiteborAltoNotes }
 					}
 					\new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
@@ -63,8 +82,6 @@
 					\ConfiteborBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 	\bookpart {
@@ -73,22 +90,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\UtDetIllisViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\UtDetIllisViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\UtDetIllisViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -112,33 +113,15 @@
 					\UtDetIllisBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "3 SANCTUM ET TERRIBILE"
 		}
-		\paper { page-count = #6 }
+		\paper { systems-per-page = #5 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\SanctumViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\SanctumViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\SanctumViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -156,32 +139,15 @@
 					\SanctumBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 60 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "4 INTELLECTUS BONUS"
 		}
+		\paper { systems-per-page = #5 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\IntellectusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\IntellectusViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\IntellectusViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -199,29 +165,15 @@
 					\IntellectusBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4. = 80 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "5 GLORIA PATRI"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #5 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\GloriaPatriViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\GloriaPatriViolinoII
-						}
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
@@ -236,8 +188,6 @@
 					}
 				>>
 			>>
-			\layout { }
-			\midi { \tempo 4 = 60 }
 		}
 	}
 	\bookpart {
@@ -246,22 +196,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\SicutEratViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\SicutEratViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\SicutEratViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -285,8 +219,6 @@
 					\SicutEratBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 }

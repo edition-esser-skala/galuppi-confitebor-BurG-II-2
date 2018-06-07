@@ -633,10 +633,6 @@ GloriaPatriOrgano = {
 	}
 }
 
-GloriaPatriBassFigures = \figuremode {
-	
-}
-
 SicutEratOrgano = {
 	\relative c {
 		\clef bass

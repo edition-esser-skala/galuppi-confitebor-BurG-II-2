@@ -218,7 +218,7 @@ GloriaPatriAltoNotes = {
 		R2*19 %281
 		\mvTr g'4.\pE^\soloE h16. a32
 		\tuplet 3/2 8 { g16([ fis g)] } g4 e8(
-		\tuplet 3/2 8 { d16([ e fis)] g([ fis)] e } \appoggiatura d16 c8. h16
+		\tuplet 3/2 8 { d16[ e fis)] g([ fis)] e } \appoggiatura d16 c8. h16
 		h4 h'8 g16. fis32 %285
 		e16.([ dis32)] e8 h' e,16. d?32
 		d16. cis32 cis8 r a'16. cis,32
