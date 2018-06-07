@@ -203,41 +203,90 @@
 % 			\midi { \tempo 4. = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "5 GLORIA PATRI"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\GloriaPatriViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\GloriaPatriViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \GloriaPatriAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \GloriaPatriAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\GloriaPatriOrgano
+% 					}
+% 				>>
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "5 GLORIA PATRI"
+			movement = "6 SICUT ERAT"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\GloriaPatriViolinoI
+							\SicutEratViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\GloriaPatriViolinoII
+							\SicutEratViolinoII
 						}
+					>>
+					\new Staff <<
+						\set Staff.instrumentName = "Viola"
+						\SicutEratViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \GloriaPatriAltoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \SicutEratSopranoNotes }
 					}
-					\new Lyrics \lyricsto Alto \GloriaPatriAltoLyrics
+					\new Lyrics \lyricsto Soprano \SicutEratSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \SicutEratAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \SicutEratAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\GloriaPatriOrgano
+						\SicutEratOrgano
 					}
 				>>
+				\new FiguredBass {
+					\SicutEratBassFigures
+				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

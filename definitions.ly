@@ -169,6 +169,7 @@ tempoUtDetIllis = \tempoMarkup "[Tempo deest]"
 tempoSanctum = \tempoMarkup "Largo"
 tempoIntellectus = \tempoMarkup "Allegro assai"
 tempoGloriaPatri = \tempoMarkup "Adagio"
+tempoSicutErat = \tempoMarkup "[Tempo deest]"
 
 
 % modify the Scheme function 'format-bass-figure'

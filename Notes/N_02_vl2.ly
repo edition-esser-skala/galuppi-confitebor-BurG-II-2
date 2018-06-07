@@ -334,3 +334,11 @@ GloriaPatriViolinoII = {
 		g8 g' g,4\fermata \bar "||" %324 finis
 	}
 }
+
+SicutEratViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/4 \tempoSicutErat
+			\set Score.currentBarNumber = #325
+	}
+}

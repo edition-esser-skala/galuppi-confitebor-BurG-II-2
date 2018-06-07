@@ -382,13 +382,15 @@ IntellectusSopranoLyrics = \lyricmode {
 	li. %255 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+SicutEratSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/4 \autoBeamOff \tempoSicutErat
+			\set Score.currentBarNumber = #325
+		
+	}
+}
+
+SicutEratSopranoLyrics = \lyricmode {
+	
+}

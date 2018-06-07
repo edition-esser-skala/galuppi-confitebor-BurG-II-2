@@ -341,9 +341,10 @@ GloriaPatriViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 	}
-% }
+SicutEratViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/4 \tempoSicutErat
+			\set Score.currentBarNumber = #325
+	}
+}

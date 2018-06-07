@@ -637,13 +637,15 @@ GloriaPatriBassFigures = \figuremode {
 	
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+SicutEratOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/4 \tempoSicutErat
+			\set Score.currentBarNumber = #325
+		\mvTr c4\fE-\soloE c
+	}
+}
+
+SicutEratBassFigures = \figuremode {
+	
+}

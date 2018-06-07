@@ -220,9 +220,18 @@ IntellectusViola = {
 
 GloriaPatriViola = {
 	\relative c' {
-		\clef treble
-% 		\clef alto
+% 		\clef treble
+		\clef alto
 		\key g \major \time 2/4 \tempoGloriaPatri
 			\set Score.currentBarNumber = #263
+	}
+}
+
+SicutEratViola = {
+	\relative c' {
+		\clef treble
+% 		\clef alto
+		\key c \major \time 2/4 \tempoSicutErat
+			\set Score.currentBarNumber = #325
 	}
 }

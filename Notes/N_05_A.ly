@@ -284,13 +284,15 @@ GloriaPatriAltoLyrics = \lyricmode {
 	cto. %316 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 
-% }
+SicutEratAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/4 \autoBeamOff \tempoSicutErat
+			\set Score.currentBarNumber = #325
+		
+	}
+}
+
+SicutEratAltoLyrics = \lyricmode {
+
+}
