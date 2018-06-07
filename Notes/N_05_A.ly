@@ -289,10 +289,122 @@ SicutEratAltoNotes = {
 		\clef treble
 		\key c \major \time 2/4 \autoBeamOff \tempoSicutErat
 			\set Score.currentBarNumber = #325
-		
+		R2*8 %332
+		\mvTr g'4\pE^\soloE a
+		g8. f16 e8 g
+		f f16 e d8 f %335
+		e4 c
+		R2*6 %342
+		r4 c'8 c
+		e, fis16 g fis8 g16([ a)]
+		g([ fis?)] g8 b b %345
+		d, e16 f e8 f16([ g)]
+		f([ e)] f4 r8
+		r4 f~
+		f e
+		r h'~ %350
+		h8[ a16 gis] a4~
+		a8[ g16 fis] g4
+		fis r
+		r8 h4( a16[ gis)]
+		a4 r %355
+		r8 a4( g!16[ fis)]
+		g4 h~
+		h8[ a16 g] a4~
+		a8[ g16 fis] g4~
+		g8[ fis16 e] fis4 %360
+		g8 a h g
+		g4( fis)
+		g r
+		R2*8 %371
+		g4 a
+		g8. f16 e8 g
+		f f16 e d8 f
+		e c r4 %375
+		R2
+		r4 b'8 b
+		d, e16 f e8 f16([ g)]
+		f([ e)] f8 r4
+		r8 f4( es16[ d)] %380
+		es?4 r
+		r8 es4( d16[ c)]
+		d8 e16[ f] g8[ f]
+		e4^\critnote f~
+		f8[ e16 d] e8[ f16 g] %385
+		a4. g16[ f]
+		g4. f16[ e]
+		f4. e16[ d]
+		e8[ d16 e] f8[ e]
+		d e \appoggiatura e d4 %390
+		c4 r
+		r8 a'4( g16[ fis)]
+		g4 r
+		r8 g4( f!16[ e)]
+		f4 a8 a %395
+		f f16 e d8 e16([ f)]
+		e8 d16([ e)] f8 e
+		d e \appoggiatura e d4
+		e d
+		c r %400
+		R2\fermataMarkup \bar "|." %401 FINIS
 	}
 }
 
 SicutEratAltoLyrics = \lyricmode {
-
+	Si -- cut %333
+	e -- rat in prin --
+	ci -- pio, et nunc et %335
+	sem -- per,
+	
+	et in %343
+	sae -- cu -- la sae -- cu --
+	lo -- rum, et in %345
+	sae -- cu -- la sae -- cu --
+	lo -- rum,
+	a --
+	men,
+	a -- %350
+	_
+	_
+	men,
+	a --
+	men, %355
+	a --
+	men, a --
+	_
+	_
+	_ %360
+	_ men, a -- men,
+	a --
+	men.
+	
+	Si -- cut %372
+	e -- rat in prin --
+	ci -- pio, et nunc et
+	sem -- per, %375
+	
+	et in
+	sae -- cu -- la sae -- cu --
+	lo -- rum,
+	a -- %380
+	men,
+	a --
+	men, a -- _
+	_ _
+	_ %385
+	_ _
+	_ _
+	_ _
+	_ _
+	_ men, a -- %390
+	men,
+	a --
+	men,
+	a --
+	men, et in %395
+	sae -- cu -- la sae -- cu --
+	lo -- rum, sae -- cu --
+	lo -- rum, a --
+	men, a --
+	men. %400 FINIS
 }

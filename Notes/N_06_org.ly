@@ -651,17 +651,17 @@ SicutEratOrgano = {
 		g a h g
 		a4 d,
 		g r
-		r c~
+		r c~\pE
 		c h %335
 		c8 h a g
 		fis4 g
 		a d,
 		g8 d g,4
-		r8 g' e a %340
+		r8 g'\fE e a %340
 		d, a d,4
 		r8 f' d g
 		c,4 r
-		r8 c' a d
+		r8 c'\pE a d
 		g, d g,4 %345
 		r8 b' g c
 		f, c f,4
@@ -680,7 +680,7 @@ SicutEratOrgano = {
 		a8 fis d e16 fis %360
 		g8 d h c
 		d4 d,
-		g g
+		g\fE g
 		g' r
 		r8 g fis d %365
 		g4 r
@@ -688,7 +688,7 @@ SicutEratOrgano = {
 		h4 cis
 		d r
 		R2*2 %371
-		r8 g f! d
+		r8 g\pE f! d
 		e4 c~
 		c h
 		c r %375
@@ -732,8 +732,8 @@ SicutEratBassFigures = \figuremode {
 	<7> <_+>
 	r2
 	r
-	<2> %335
-	r
+	<2>4 <[6] [6]> %335
+	r2
 	<6>
 	<9>4 <_+>
 	r2
@@ -755,9 +755,9 @@ SicutEratBassFigures = \figuremode {
 	<5>2 %355
 	r4 <6+>8 <[_+]>
 	r2
-	<7>4 <3>
-	<7> <3>
-	<7> <_+> %360
+	<7>4 <[7]>
+	<7 [5+]> <[7]>
+	<7> <[7] _+> %360
 	r8 <_+> <6>4
 	<6 4> <5 _+>
 	r2
@@ -770,25 +770,25 @@ SicutEratBassFigures = \figuremode {
 	r2*2 %371
 	r4 <5>
 	<[6]>2
-	<2>
-	r %375
-	r4 <6+>
-	<_!> <_->
+	<2>4 <[6] [5]>
+	r2 %375
+	r4 <6+>8 <[_+]>
+	<_!>4 <_->
 	r <6 [_-]>
 	r2
-	r4 <6> %380
+	r8 <[6]> <6>4 %380
 	<_->2
-	r4 <6 [_-]>
+	r8 <[6]> <6 [_-]>4
 	r <6>
 	<7- _!> <3>
 	<7 _!>2 %385
 	<5>4 <7>
 	q q
 	q q
-	r <6>8 <5>
+	r <[8] 6>8 <[7] 5>
 	r2 %390
 	r
-	r4 <6+>
+	r4 <6+>8 <[_+]>
 	<_->2
 	r4 <6 [_-]>
 	r2 %395

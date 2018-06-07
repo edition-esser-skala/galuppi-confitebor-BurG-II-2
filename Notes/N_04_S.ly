@@ -392,8 +392,15 @@ SicutEratSopranoNotes = {
 		d8. c16 h8 d
 		c c16 h a8 c
 		h4 g
-		R2*14 %353
-		r8 d'4( c16[ h)]
+		R2*7 %346
+		r4 f'8 f
+		a, h16 c h8 c16([ d)]
+		c([ h)] c8 e e
+		fis, gis16 a gis8 a16([ h)] %350
+		c4. h16([ a)]
+		h2
+		a4 r
+		r8 d4( c16[ h)]
 		c4 r %355
 		r8 c4( h16[ a)]
 		h4 r
@@ -444,7 +451,14 @@ SicutEratSopranoLyrics = \lyricmode {
 	ci -- pio, et nunc et
 	sem -- per,
 	
-	a -- %354
+	et in %347
+	sae -- cu -- la sae -- cu --
+	lo -- rum, et in
+	sae -- cu -- la sae -- cu -- %350
+	lo -- rum,
+	a --
+	men,
+	a --
 	men, %355
 	a --
 	men,
