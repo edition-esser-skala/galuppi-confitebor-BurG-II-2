@@ -643,9 +643,159 @@ SicutEratOrgano = {
 		\key c \major \time 2/4 \tempoSicutErat
 			\set Score.currentBarNumber = #325
 		\mvTr c4\fE-\soloE c
+		c r
+		r8 c' h g
+		c4 r
+		r8 c d d,
+		e c f a %330
+		g a h g
+		a4 d,
+		g r
+		r c~
+		c h %335
+		c8 h a g
+		fis4 g
+		a d,
+		g8 d g,4
+		r8 g' e a %340
+		d, a d,4
+		r8 f' d g
+		c,4 r
+		r8 c' a d
+		g, d g,4 %345
+		r8 b' g c
+		f, c f,4
+		r8 f' d g
+		c g c,4
+		r8 c h e %350
+		a,4 fis'
+		g cis,
+		d r
+		r8 d h e
+		a,4 r %355
+		r8 c a d
+		g,4 r8 g'
+		c a fis g16 a
+		h8 g e fis?16 g
+		a8 fis d e16 fis %360
+		g8 d h c
+		d4 d,
+		g g
+		g' r
+		r8 g fis d %365
+		g4 r
+		r8 g a a,
+		h4 cis
+		d r
+		R2*2 %371
+		r8 g f! d
+		e4 c~
+		c h
+		c r %375
+		r8 c a d
+		g,4 r
+		r8 b g c
+		f,4 r
+		r8 f' d g %380
+		c,4 r
+		r8 es c f
+		b,4 b'
+		c f,
+		g r8 c, %385
+		f d h c16 d
+		e8 c a h16 c
+		d8 h g a16 h
+		c4 f
+		g8 c, g' g, %390
+		c4 r
+		r8 c' a d
+		g,4 r
+		r8 b g c
+		f,4 r %395
+		r8 d g g,
+		c4 f
+		g8 c, g' g,
+		c4 g'-!
+		c-! g-! %400
+		c,-! r\fermata \bar "|." %401 FINIS
 	}
 }
 
 SicutEratBassFigures = \figuremode {
-	
+	r2 %325
+	r
+	r4 <6>
+	r2
+	r4 <6>
+	q2 %330
+	r8 <6+> <6>4
+	<7> <_+>
+	r2
+	r
+	<2> %335
+	r
+	<6>
+	<9>4 <_+>
+	r2
+	r4 <6+> %340
+	r2
+	r8 <6> q4
+	r2
+	r4 <6+>8 <_+>
+	<_!>4 <_-> %345
+	r <6 [_-]>
+	r2
+	r4 <6>
+	<4> <3>
+	r8 <6> <6+> <[_+]> %350
+	<9>4 <3>
+	<9> <3>
+	<_+>2
+	r4 <6+>8 <[_+]>
+	<5>2 %355
+	r4 <6+>8 <[_+]>
+	r2
+	<7>4 <3>
+	<7> <3>
+	<7> <_+> %360
+	r8 <_+> <6>4
+	<6 4> <5 _+>
+	r2
+	r
+	r4 <6> %365
+	r2
+	r4 <6+>
+	<6> q
+	<_+>2
+	r2*2 %371
+	r4 <5>
+	<[6]>2
+	<2>
+	r %375
+	r4 <6+>
+	<_!> <_->
+	r <6 [_-]>
+	r2
+	r4 <6> %380
+	<_->2
+	r4 <6 [_-]>
+	r <6>
+	<7- _!> <3>
+	<7 _!>2 %385
+	<5>4 <7>
+	q q
+	q q
+	r <6>8 <5>
+	r2 %390
+	r
+	r4 <6+>
+	<_->2
+	r4 <6 [_-]>
+	r2 %395
+	r4 <7>
+	r <6>
+	r2
+	r
+	r %400
+	r %401 FINIS
 }
